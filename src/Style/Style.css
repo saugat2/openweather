@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 546px) {
+  nav a:not(:first-child) {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 546px) {
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+nav {
+  background-color: aquamarine;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+}
+nav .nav_container {
+  display: flex;
+}
+nav .button {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+nav .button .nav_btn {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  float: right;
+}
+nav .container {
+  display: flex;
+}
+nav .container a {
+  text-decoration: none;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  float: left;
+  margin: auto;
+}
+nav ul li {
+  margin-right: auto;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+  margin: 1rem;
+}
+nav ul li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+.row .col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 1px;
+}
+.row .col-8 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+.row .col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.row .col-4 {
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 1px;
+}
+.row .col-3 {
+  flex: 0 0 auto;
+  width: 20%;
+}
+.row .col-2 {
+  flex: 0 0 auto;
+  width: 16.6666667%;
+}
+
+.box_result {
+  background-color: aqua;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 0.2rem;
+}
+.box_result .result {
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.box {
+  margin: 5% 42% 4% 36%;
+  background-color: aqua;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.box .result {
+  background-color: aqua;
+  color: white;
+  text-align: center;
+}
+.box .weather-forcast {
+  position: relative;
+  left: 0%;
+  right: 25%;
+  margin: 10px;
+}
+.box .weather-forcast input {
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 20px;
+}
+.box .weather-forcast button {
+  padding: 0.5rem;
+  background-color: #0e4531;
+  color: white;
+  border-radius: 20px;
+  margin-left: 2px;
+}
+
+footer {
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
